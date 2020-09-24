@@ -16,7 +16,7 @@ section:not(.kontakt) {
     
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.19) 18.23%, rgba(255, 255, 255, 0.04) 85.79%, #E9E6CE 100%), url("kanal.jpg");
     font-family: 'Rancho', cursive;
-    font-size: 75px;
+    font-size: 76px;
     min-height: 1241px;
 }
 

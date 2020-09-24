@@ -1,0 +1,256 @@
+body {
+    position: relative; 
+background: #E9E6CE;
+   
+}
+
+section:not(.kontakt) {
+    margin-bottom: 300px;
+
+}
+
+
+/*---PEALKIRI---*/
+
+.pealkiri {
+    
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.19) 18.23%, rgba(255, 255, 255, 0.04) 85.79%, #E9E6CE 100%), url("kanal.jpg");
+    font-family: 'Rancho', cursive;
+    font-size: 75px;
+    min-height: 1241px;
+}
+
+.pealkiri h1 {
+    animation-name: header-color;
+    animation-duration: 5s;
+}
+
+.pealkiri__keskel {
+    
+    background: rgba(186, 186, 186, 0.38);
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 75px;
+    text-align: center;
+}
+
+.pealkiri__paremal {
+    text-align: right;
+    font-size: 45px;
+}
+
+#pilt4 {
+    display: flex;
+    width: 610px;
+    height: 427px;
+    border-radius: 25px;
+    
+}
+
+/*---MINUST---*/
+
+.pealkiri__minust {
+    text-align: center;
+    font-family: 'Rancho', cursive;
+    font-size: 75px;
+}
+
+.tekst__minust {
+    background: rgba(196, 196, 196, 0.38);
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 75px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 36px;    
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+#pilt4 {
+    left: -1000px;
+    position: relative;
+    animation-name: pilt4-slide;
+    animation-duration: 5s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+}
+
+/*---NÄIDISED---*/
+
+.naidis {
+    text-align: center;
+    font-family: 'Rancho', cursive;
+    font-size: 75px;
+}
+ .pildid {
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: row;
+     justify-content: space-around;
+     gap: 50px;
+    
+ }
+
+ #pilt1 {
+    width: 660px;
+    height: 421px;
+    border-radius: 10px;
+    transition: width 2s, height 2s, transform 2s;
+ }
+
+ #pilt2 {
+    width: 660px;
+    height: 421px;
+    border-radius: 10px;
+    transition: width 2s, height 2s, transform 2s;
+ }
+
+ #pilt3 {
+    width: 1280px;
+    height: 713.44px;
+    border-radius: 10px;
+    transition: width 2s, height 2s, transform 2s;
+ }
+
+ #pilt5 {
+    width: 660px;
+    height: 421px;
+    border-radius: 10px;
+    transition: width 2s, height 2s, transform 2s;
+ }
+
+ #pilt6 {
+    width: 660px;
+    height: 421px;
+    border-radius: 10px;
+    transition: width 2s, height 2s, transform 2s;
+ }
+
+.pilt__6-1 {
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+}
+
+.pilt__2-5 {
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+}
+
+ /*---KONTAKT---*/
+
+ .kontakt__pealkiri {
+    font-family: 'Rancho', cursive;
+    font-size: 75px;
+    text-align: center;
+ }
+
+.kontakt__tekst {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    width: 50%;
+    text-align: center;
+}
+
+.ul__kontakt{
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.kontakt__1 {
+    display: flex;
+margin-bottom: 50px;
+}
+
+.ul__kontakt ul {
+    list-style: none;
+    text-align: left;
+    margin: 0 auto;
+    width: 55%;
+    background: rgba(196, 196, 196, 0.38);
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 75px;
+padding: 20px;
+}
+
+.kontakt__tekst p {
+    margin: 0 auto;
+    width: 50%;
+    background: rgba(196, 196, 196, 0.38);
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 75px;
+padding: 20px;
+}
+
+/*---FOOTER---*/
+
+footer {
+    display: flex;
+    height: 267px;
+    background-image: url(sild.jpg);
+    background-position: 50% 70%;    
+}
+
+/*---ANIMATIONS---*/
+
+@keyframes header-color{
+    0%   {color: black;}
+    20%  {color: darkred;}
+    50%  {color: red;}
+    80%  {color: darkred;}
+    100% {color: black;}
+
+}
+
+@keyframes pilt4-slide {
+    100%   {left:0;}
+}
+
+/*---HOVER---*/
+
+#pilt2:hover {
+    width: 1000px;
+    height: 700px;
+    border-radius: 10px;
+    transition-duration: 2s;
+}
+
+#pilt1:hover {
+    width: 1000px;
+    height: 700px;
+    border-radius: 10px;
+    transition-duration: 2s;
+}
+
+#pilt5:hover {
+    width: 1000px;
+    height: 700px;
+     border-radius: 10px;
+     transition-duration: 2s;
+}
+
+
+#pilt6:hover {
+    width: 1000px;
+    height: 700px;
+    border-radius: 10px;
+    transition-duration: 2s;
+}
+
+#pilt3:hover {
+    width: 1980px;
+    height: 1070px;
+    border-radius: 10px;
+    transition-duration: 2s;
+    
+    }
